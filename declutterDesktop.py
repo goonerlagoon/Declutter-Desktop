@@ -26,7 +26,7 @@ def main():
             continue
         else:
             # extract the extension of each file and make it the dir name
-            # if it doesnt already exists
+            # if it doesnt already exist
             sfx = file_obj.suffix[1:].upper() + 's'
             try:
                 extension_dir = home_base / sfx
